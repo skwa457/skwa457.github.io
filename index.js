@@ -63,7 +63,7 @@ function validFormFieldInput(data) {
     newTaskDescriptionInput.value = "";
     newTaskAssignedInput.value = "";
     newTaskDateInput.value = "";
-    newTaskStatusInput.value = "To Do";
+    newTaskStatusInput.value = "Select Status..";
     newTaskNameInput.classList.remove("is-valid");
     newTaskDescriptionInput.classList.remove("is-valid");
     newTaskAssignedInput.classList.remove("is-valid");
